@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coding_challenge/static/css/main.7e6d84bb.css",
-    "main.js": "/coding_challenge/static/js/main.19b8dd87.js",
+    "main.js": "/coding_challenge/static/js/main.da9e52b8.js",
     "static/media/drop2.png": "/coding_challenge/static/media/drop2.ac081fd942775d8a9167.png",
     "static/media/pc-homeauction.png": "/coding_challenge/static/media/pc-homeauction.39822659c4a3ae775c9b.png",
     "static/media/home3anime.png": "/coding_challenge/static/media/home3anime.71588550af87c0db0957.png",
@@ -130,10 +130,10 @@
     "static/media/dot.svg": "/coding_challenge/static/media/dot.a40141859030b03ae887bfb58ddd1961.svg",
     "static/media/minus.svg": "/coding_challenge/static/media/minus.11a7ea400d3fec77a1b5130d4a4541ff.svg",
     "main.7e6d84bb.css.map": "/coding_challenge/static/css/main.7e6d84bb.css.map",
-    "main.19b8dd87.js.map": "/coding_challenge/static/js/main.19b8dd87.js.map"
+    "main.da9e52b8.js.map": "/coding_challenge/static/js/main.da9e52b8.js.map"
   },
   "entrypoints": [
     "static/css/main.7e6d84bb.css",
-    "static/js/main.19b8dd87.js"
+    "static/js/main.da9e52b8.js"
   ]
 }
