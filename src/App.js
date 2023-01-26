@@ -18,7 +18,7 @@ function App() {
   return (
     <AnimatePresence>
     <Routes location={location} key={location.pathname}>
-      <Route path="/" element={<Layout />}>
+      <Route  path="/coding_challenge" element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path="thanks" element={<Thankyou />} />
         
