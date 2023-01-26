@@ -6,7 +6,7 @@ const PreFooter = () => {
 
   return (
     <div className="pc-postpage-footer">{width < 769 ? "" :
-      <Link to='/products/cart'>
+      <Link to='/coding_challenge/products/cart'>
       <button>
         Explore all
       </button>

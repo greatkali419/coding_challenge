@@ -85,12 +85,12 @@ const Main = ({
           </form>
           <div className="shipping-button-container">
             <button>
-            <Link to="/products/cart/payment">
+            <Link to="/coding_challenge/products/cart/payment">
             Proceed to payment
             </Link>
             </button>
             <p>
-              <Link to="/products/cart">
+              <Link to="/coding_challenge/products/cart">
                 Go back to cart 
               </Link>
             </p>
@@ -161,7 +161,7 @@ const Main = ({
               <input type="text" placeholder='0812 3456 785'/>
             </div>
             <div className='pc-shipping-form-button'>
-             <Link to="/products/cart/payment">
+             <Link to="/coding_challenge/products/cart/payment">
               <button>
               Proceed to payment
               </button>

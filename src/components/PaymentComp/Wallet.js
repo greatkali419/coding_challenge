@@ -79,7 +79,7 @@ const Wallet = () => {
             </div>
             <div className="pc-payment-botton">
               <button>
-            <Link to="/thanks">
+            <Link to="/coding_challenge/thanks">
 
                 Confirm
               </Link>

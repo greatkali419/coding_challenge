@@ -72,16 +72,16 @@ const Footer = () => {
             <img src={logo} alt="logo" />
           </div>
           <ul className="pc-body-2">
-              <Link to="/">
+              <Link to="/coding_challenge">
               <li>Home</li>
               </Link>
-              <Link to="/products">
+              <Link to="/coding_challenge/products">
               <li>Marketplace</li>
               </Link>
-              <Link to="/auctions">
+              <Link to="/coding_challenge/auctions">
               <li>Auctions</li>
               </Link>
-              <Link to="/drop">
+              <Link to="/coding_challenge/drop">
               <li>Drops</li>
               </Link>
 

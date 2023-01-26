@@ -113,7 +113,7 @@ const ProductMain = () => {
       </div>}
     {width < 769 ? 
      <div className="products-main-container1">
-        <Link to="/products/page">
+        <Link to="/coding_challenge/products/page">
 
         <div className="product">
           
@@ -187,7 +187,7 @@ const ProductMain = () => {
           </p>
         </div>
         <div className="pc-product-grid1">
-          <Link to="/products/page">
+          <Link to="/coding_challenge/products/page">
           <img src={image2} alt="boolean" />
           <p>
             BOOLEAN EGYPTIAN

@@ -32,12 +32,12 @@ const Auctions = () => {
 
                 </div>
                 <div className="button-content-container">
-                  <Link to='/drop'>
+                  <Link to='/coding_challenge/drop'>
                       <button className="auction-button">
                         Set a reminder
                       </button>
                     </Link> 
-                     <Link to='/auctions'>
+                     <Link to='/coding_challenge/auctions'>
                       <button className="auction-button">
                         See more
                       </button>
@@ -77,12 +77,12 @@ const Auctions = () => {
 
                         </div>
                         <div className="pc-button-content-container">
-                          <Link to='drop'>
+                          <Link to='/coding_challenge/drop'>
                               <button className="pc-auction-button">
                                 Set a reminder
                               </button>
                               </Link>
-                          <Link to='auctions'>
+                          <Link to='/coding_challenge/auctions'>
                               <button className="pc-auction-button">
                                 See more
                               </button>

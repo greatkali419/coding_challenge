@@ -50,13 +50,13 @@ const Pricing = ({ grandTotalValue, totalValue,cartNoValue }) => {
           </div>
           <div className="pricing-button-container">
             <button className="link2-button">
-            <Link to="/products/cart/shipping">
+            <Link to="/coding_challenge/products/cart/shipping">
             Proceed to checkout
             </Link>
             </button>
 
               <button className='link-button'>
-                <Link to="/products">
+                <Link to="/coding_challenge/products">
                   Continue shopping
                 </Link>
               </button>
@@ -64,13 +64,13 @@ const Pricing = ({ grandTotalValue, totalValue,cartNoValue }) => {
       </div> :
       <div className='pc-pricing-container'>
         <div className='pc-pricing-button-container'>
-        <Link to="/products/cart/shipping">
+        <Link to="/coding_challenge/products/cart/shipping">
           <button>
           Proceed to checkout
           </button>
           </Link>
           
-          <Link to="/products">
+          <Link to="/coding_challenge/products">
           <button>
           Continue shopping
           </button>

@@ -25,7 +25,7 @@ const Main = () => {
             <p>
             You are amazing. Cheers to being
             </p>
-            <a href="/">
+            <a href="/coding_challenge">
             ARTSY!
             </a>
         </div>

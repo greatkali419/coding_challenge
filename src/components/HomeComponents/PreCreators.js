@@ -14,7 +14,7 @@ const PreCreators = () => {
                 <h2>
                 Explore marketplace
                 </h2>
-                <Link to='/products'>
+                <Link to='/coding_challenge/products'>
                 <button>
                     <img src={image1} alt="1" />
                 </button>
@@ -25,7 +25,7 @@ const PreCreators = () => {
                   <h2>
                   See auctions
                   </h2>
-                  <Link to='/auctions'>
+                  <Link to='/coding_challenge/auctions'>
                   <button>
                       <img src={image1} alt="1" />
                   </button>
@@ -38,7 +38,7 @@ const PreCreators = () => {
                 <h2>
                 Explore marketplace
                 </h2>
-                <Link to='/products'>
+                <Link to='/coding_challenge/products'>
                 <button>
                     <img src={image2} alt="1" />
                 </button>
@@ -48,7 +48,7 @@ const PreCreators = () => {
                   <h2>
                   See auctions
                   </h2>
-                  <Link to='/auctions'>
+                  <Link to='/coding_challenge/auctions'>
                   <button>
                       <img src={image2} alt="1" />
                   </button>

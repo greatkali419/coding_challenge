@@ -49,11 +49,11 @@ const Navbar = ({ navMenu, handleCloseMenu, handleOpenMenu, homeLine,marketLine,
             <div className='nav-page-container'>
                   <ul className='list-container'>
 
-                      <Link to="/"><li onClick={handleCloseMenu} className='List-item'>Home</li>
+                      <Link to="/coding_challenge"><li onClick={handleCloseMenu} className='List-item'>Home</li>
                       </Link>
-                      <Link to="/products"><li onClick={handleCloseMenu} className='List-item'> Marketplace </li></Link>
-                      <Link to="/auctions"><li onClick={handleCloseMenu} className='List-item'> Auctions </li></Link>
-                      <Link to="/drop"><li onClick={handleCloseMenu} className='List-item'> Drop </li>
+                      <Link to="/coding_challenge/products"><li onClick={handleCloseMenu} className='List-item'> Marketplace </li></Link>
+                      <Link to="/coding_challenge/auctions"><li onClick={handleCloseMenu} className='List-item'> Auctions </li></Link>
+                      <Link to="/coding_challenge/drop"><li onClick={handleCloseMenu} className='List-item'> Drop </li>
                       </Link>
                   </ul>
                   <div className='navbutton-container'>
@@ -72,7 +72,7 @@ const Navbar = ({ navMenu, handleCloseMenu, handleOpenMenu, homeLine,marketLine,
               <svg className='mobile-icon' width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M7.43687 1.67726e-08C6.25089 0.000101055 5.08212 0.283819 4.02809 0.827482C2.97406 1.37115 2.06532 2.15899 1.3777 3.12528C0.690074 4.09158 0.243501 5.2083 0.0752371 6.38229C-0.0930268 7.55627 0.021898 8.75347 0.410423 9.87401C0.798949 10.9945 1.44981 12.0059 2.3087 12.8238C3.16759 13.6416 4.20961 14.2422 5.34782 14.5754C6.48602 14.9086 7.68742 14.9648 8.85176 14.7393C10.0161 14.5138 11.1096 14.0131 12.0411 13.279L15.2366 16.4745C15.4016 16.6339 15.6227 16.7221 15.8521 16.7201C16.0815 16.7181 16.301 16.6261 16.4632 16.4638C16.6254 16.3016 16.7175 16.0821 16.7195 15.8527C16.7215 15.6233 16.6333 15.4023 16.4739 15.2373L13.2784 12.0418C14.1429 10.945 14.6811 9.6271 14.8316 8.23876C14.982 6.85042 14.7386 5.44777 14.1291 4.19133C13.5196 2.9349 12.5686 1.87544 11.3851 1.1342C10.2016 0.392968 8.83334 -9.37504e-05 7.43687 1.67726e-08V1.67726e-08ZM1.74937 7.4375C1.74937 5.92908 2.34858 4.48244 3.4152 3.41583C4.48181 2.34922 5.92845 1.75 7.43687 1.75C8.94529 1.75 10.3919 2.34922 11.4585 3.41583C12.5252 4.48244 13.1244 5.92908 13.1244 7.4375C13.1244 8.94592 12.5252 10.3926 11.4585 11.4592C10.3919 12.5258 8.94529 13.125 7.43687 13.125C5.92845 13.125 4.48181 12.5258 3.4152 11.4592C2.34858 10.3926 1.74937 8.94592 1.74937 7.4375V7.4375Z" fill="#333333"/>
               </svg>
-              <Link to="/products/cart">
+              <Link to="/coding_challenge/products/cart">
               <svg width="31" height="28" viewBox="0 0 31 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M11.3 23C10.6667 23 10.125 22.7707 9.675 22.312C9.225 21.854 9 21.3083 9 20.675V11.4L7.175 7H5V5H8.525L10.175 9H24.95C25.3333 9 25.625 9.15833 25.825 9.475C26.025 9.79167 26.0333 10.1167 25.85 10.45L23 16.025C23.85 16.1583 24.5627 16.55 25.138 17.2C25.7127 17.85 26 18.6167 26 19.5C26 20.4667 25.6627 21.2917 24.988 21.975C24.3127 22.6583 23.4917 23 22.525 23C21.5417 23 20.7127 22.6583 20.038 21.975C19.3627 21.2917 19.025 20.4667 19.025 19.5C19.025 19.1667 19.0667 18.8583 19.15 18.575C19.2333 18.2917 19.35 18.0167 19.5 17.75L16.225 17.45L13.225 21.95C13.0083 22.2833 12.729 22.5417 12.387 22.725C12.0457 22.9083 11.6833 23 11.3 23ZM20.85 15.875L23.325 11L11 11.025L12.25 14C12.3833 14.3333 12.596 14.6123 12.888 14.837C13.1793 15.0623 13.5167 15.1917 13.9 15.225L20.85 15.875ZM11.325 20.975C11.3583 20.975 11.4333 20.9333 11.55 20.85L13.975 17.25C13.1583 17.1667 12.5167 16.9707 12.05 16.662C11.5833 16.354 11.2333 16.0333 11 15.7V20.7C11 20.7833 11.0333 20.85 11.1 20.9C11.1667 20.95 11.2417 20.975 11.325 20.975V20.975ZM22.5 21C22.9333 21 23.2917 20.854 23.575 20.562C23.8583 20.2707 24 19.9167 24 19.5C24 19.0667 23.8583 18.7083 23.575 18.425C23.2917 18.1417 22.9333 18 22.5 18C22.0833 18 21.7293 18.1417 21.438 18.425C21.146 18.7083 21 19.0667 21 19.5C21 19.9167 21.146 20.2707 21.438 20.562C21.7293 20.854 22.0833 21 22.5 21ZM20.85 15.875L13.9 15.225L20.85 15.875Z" fill="#333333"/>
               <circle cx="25.5" cy="4.5" r="2.5" fill="#E31616"/>
@@ -86,27 +86,27 @@ const Navbar = ({ navMenu, handleCloseMenu, handleOpenMenu, homeLine,marketLine,
                 <img src={logo} alt="logo" />
               </div>
                 <ul className='pc-list-container'>
-                    <Link to="/"><li style={{
+                    <Link to="/coding_challenge"><li style={{
                       textDecoration: homeLine
                     }} className='pc-List-item itemx' onClick={handleHomeline}>Home</li>
                     </Link>
-                    <Link to="/products"><li style={{
+                    <Link to="/coding_challenge/products"><li style={{
                       textDecoration: marketLine
                     }}  onClick={handleMarketline} className='pc-List-item'> Marketplace </li></Link>
-                    <Link to="/auctions"><li style={{
+                    <Link to="/coding_challenge/auctions"><li style={{
                       textDecoration: auctionLine
                     }}  onClick={handleAuctionline} className='pc-List-item'> Auctions </li></Link>
-                    <Link to="/drop"><li style={{
+                    <Link to="/coding_challenge/drop"><li style={{
                       textDecoration: dropLine
                     }}  onClick={handleDropline} className='pc-List-item'> Drop </li>
                     </Link>
                 </ul>
               <div className='pc-icon-container'>
                 <img src={image2} alt="2" />
-                <Link to="/products/cart">
+                <Link to="/coding_challenge/products/cart">
                 <img src={image1} alt="1" />
                 </Link>
-                <Link to="/drop">
+                <Link to="/coding_challenge/drop">
                 <img src={image3} alt="3" />
                 </Link>
               </div>

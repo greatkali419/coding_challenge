@@ -40,7 +40,7 @@ const Form = () => {
                 </div>
                 <div className="shipping-button-container">
                   <button>
-                      <Link to="/thanks">
+                      <Link to="/coding_challenge/thanks">
                         Confirm
                       </Link>
                   </button>

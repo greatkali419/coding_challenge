@@ -41,7 +41,7 @@ const CartNavbar = () => {
       {width<799 ? "" : 
       <div className='pc-cart-nav-container'>
         <div className='pc-cart-nav'>
-        <Link to="/products/cart">
+        <Link to="/coding_challenge/products/cart">
           <p
           onClick={handleCartLink} 
           style={{ color: cartColor, borderBottom: cartLine}}>
@@ -49,7 +49,7 @@ const CartNavbar = () => {
           </p>
           </Link>
 
-          <Link to="/products/cart/shipping">
+          <Link to="/coding_challenge/products/cart/shipping">
           <p 
           onClick={handleShippingLink} 
           style={{ color: shippingColor, borderBottom: shippingLine}}
@@ -58,7 +58,7 @@ const CartNavbar = () => {
           </p>
           </Link>
 
-          <Link to="/products/cart/payment">
+          <Link to="/coding_challenge/products/cart/payment">
           <p 
           onClick={handlePaymentLink} 
           style={{ color: paymentColor, borderBottom: paymentLine}}

@@ -73,7 +73,7 @@ const PostPageMain = () => {
             </button>
            </div>
             <div className="postpage-button-container">
-            <Link to='/products/cart'>
+            <Link to='/coding_challenge/products/cart'>
             <button>
               add to cart 
             </button>
@@ -196,7 +196,7 @@ const PostPageMain = () => {
                 </button>
               </div>
               <div className="pc-postpage-content-main4">
-              <Link to='/products/cart'>
+              <Link to='/coding_challenge/products/cart'>
                 <button>
                 Add to cart
                 <img src={arrow} alt="arrow" />
