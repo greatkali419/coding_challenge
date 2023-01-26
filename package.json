@@ -2,7 +2,7 @@
   "name": "my-react-app",
   "version": "0.1.0",
   "homepage": "https://greatkali419.github.io/coding_challenge",
-  "private": true,
+  "private": false,
   "dependencies": {
     "date-fns": "^2.29.3",
     "framer-motion": "^7.10.2",
