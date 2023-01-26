@@ -145,7 +145,7 @@ const PostPageMain = () => {
 :
     <div className="pc-postpage-main-container">
             <div className="pc-postpage-image-container">
-                <img src={image1} />    
+                <img src={image1} alt="1"/>    
             </div>
             <div>
             <svg width="1" height="1020" viewBox="0 0 1 1020" fill="none" xmlns="http://www.w3.org/2000/svg">

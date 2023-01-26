@@ -2,7 +2,6 @@ import image1 from "../../images/firsthero.png";
 import image2 from "../../images/secondhero.png";
 import image3 from "../../images/thirdhero.png";
 import image4 from "../../images/fourthhero.png";
-import image5 from "../../images/fifthhero.png";
 import imageMobile from "../../images/mobilehome.png";
 import UseWindowSize from "../../hooks/UseWindowSize";
 import { motion } from "framer-motion";

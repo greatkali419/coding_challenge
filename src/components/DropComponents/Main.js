@@ -1,7 +1,3 @@
-import image1 from "../../images/drop1.png";
-import image2 from "../../images/drop2.png";
-import image3 from "../../images/drop3.png";
-import image4 from "../../images/drop4.png";
 import UseWindowSize from "../../hooks/UseWindowSize";
 
 const Main = () => {
@@ -140,7 +136,7 @@ const Main = () => {
                         Aliya Minat
                         </p>
                     </div>
-                    <a href="/">
+                    <a href="#">
                     View
                     </a>
               </div>
@@ -181,7 +177,7 @@ const Main = () => {
                         Aliya Minat
                         </p>
                     </div>
-                    <a href="/">
+                    <a href="#">
                     View
                     </a>
               </div>

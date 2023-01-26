@@ -57,7 +57,7 @@ const Others = () => {
               <img src={heart} alt="heart" />
             </div>
             <div className="pc-others-grid-img-content">
-                <img src={image1}/>
+                <img src={image1} alt="1" />
             </div>
             <div className="pc-others-grid-content-container">
                 <p>
@@ -76,7 +76,7 @@ const Others = () => {
             <img src={heart} alt="heart" />
             </div>
             <div className="pc-others-grid-img-content">
-                <img src={image2}/>
+                <img src={image2} alt="2" />
             </div>
             <div className="pc-others-grid-content-container">
                 <p>
@@ -94,7 +94,7 @@ const Others = () => {
             <div className="pc-others-grid-hrt-content">
             </div>
             <div className="pc-others-grid-img-content">
-                <img src={image3}/>
+                <img src={image3} alt="3" />
             </div>
             
       </div>

@@ -20,7 +20,7 @@ const Products = () => {
               <div className="product-content-container">
                 <div className="product-bg">
                 <div className="bg-button"> <button className="button">
-                  <img src={arrowButton} />
+                  <img src={arrowButton} alt="arrow"  />
                 </button> </div> 
                 <div className="boolean-header-container">
                   <h1 className="boolean-header">
@@ -59,7 +59,7 @@ const Products = () => {
                 <div className="product-content-container">
                 <div className="product-bg2">
                 <div className="bg-button"> <button className="button">
-                  <img src={arrowButton} />
+                  <img src={arrowButton} alt="arrow" />
                 </button> </div> 
                   <div className="boolean-header-container">
                   <h1 className="boolean-header">
@@ -98,7 +98,7 @@ const Products = () => {
                 <div className="product-content-container">
                 <div className="product-bg3">
                 <div className="bg-button"> <button className="button">
-                  <img src={arrowButton} />
+                  <img src={arrowButton} alt="arrow"  />
                 </button> </div>
                   <div className="boolean-header-container">
                     <h1 className="boolean-header">

@@ -1,6 +1,3 @@
-import image1 from "../../images/Auction1.png";
-import image2 from "../../images/Auctions2.png";
-import image3 from "../../images/Auctions3.png";
 import { Link } from 'react-router-dom';
 import UseWindowSize from "../../hooks/UseWindowSize";
 
